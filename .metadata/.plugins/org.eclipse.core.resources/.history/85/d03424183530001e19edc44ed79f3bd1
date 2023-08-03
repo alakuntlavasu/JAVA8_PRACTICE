@@ -1,0 +1,10 @@
+package StreamAPI_Ex;
+
+public class FilterDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

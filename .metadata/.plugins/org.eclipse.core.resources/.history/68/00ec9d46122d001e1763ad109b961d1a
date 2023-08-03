@@ -1,0 +1,71 @@
+package streamEx;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employee {
+	
+	  private int id;
+	  private String name;
+	  private int salary;
+	  
+	public Employee(int id, String name, int salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+	  
+	public static void main(String[] args)
+	{
+		  List<Employee> enames =new ArrayList<Employee>();
+		    
+	        enames.add(new Employee(101,"vasu",56000));
+	        enames.add(new Employee(101,"varun",66000));
+	        enames.add(new Employee(101,"naveen",77000));
+	        enames.add(new Employee(101,"Rajesh",86000));
+	        enames.add(new Employee(101,"madhu",95000));
+	        
+	    //     
+	        
+	        for(Employee ename:enames) {
+	        	System.out.println(ename);
+	        	
+	        	if(enames.get(0).getName().startsWith("v")) {
+	        		System.out.println(ename);
+	        	}
+	        	
+	        }
+	     
+	}
+	  
+}

@@ -1,0 +1,15 @@
+package taskwith_functionalinterfaces;
+
+public class OptionalDemo {
+
+	public static void main(String[] args) {
+		
+		
+		String st="Vasu";
+		
+		
+          
+		
+	}
+
+}

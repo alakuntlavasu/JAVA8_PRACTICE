@@ -1,0 +1,12 @@
+package taskwith_functionalinterfaces;
+
+public class Optional {
+
+	public static void main(String[] args) {
+		
+		
+		String st="";
+		System.out.println(st);
+	}
+
+}

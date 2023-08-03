@@ -1,0 +1,20 @@
+package streamApi_Ex;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class MapDemo1 {
+
+	public static void main(String[] args) {
+	
+		List<String> student=Arrays.asList("varun","jaggu","shafi","hemanth","naveen");
+		
+		for( String sname:student) {
+			System.out.println(sname.length());
+			
+		}
+		
+		
+	}
+
+}
