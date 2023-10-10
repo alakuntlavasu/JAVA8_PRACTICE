@@ -1,0 +1,19 @@
+package Stream_Intermediate_methods;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class FruitsEx {
+
+	public static void main(String[] args) {
+		
+		List<String> fruitsList= Arrays.asList("Apple","Banana","Mango","Orange","Apple","Mango","Grape","Orang");
+		
+		List<String> distinctfruits =fruitsList.stream().distinct().collect(Collectors.toList());
+		
+		System.out.println(distinctfruits);
+
+	}
+
+}
