@@ -1,0 +1,13 @@
+package OptionalClass;
+
+public class OptionalExample {
+
+	public static void main(String[] args) {
+	
+		String employes[]=new String[10];
+		String employe=employes[2].toUpperCase();
+		System.out.println(employe);
+
+	}
+
+}

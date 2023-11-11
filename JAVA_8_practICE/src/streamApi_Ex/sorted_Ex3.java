@@ -17,6 +17,7 @@ public class sorted_Ex3 {
 		
 		System.out.println(sortedList);
 		
+	// dessinding order	
 		List<Integer>sortedList1=number.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 		System.out.println(sortedList1);
 
