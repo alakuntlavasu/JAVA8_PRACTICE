@@ -8,15 +8,14 @@ public class OPtionalExample1 {
 		
 		String names[]=new String[10];
 		
-//		names[2]=null;
+		names[2]=null;
 		
 		Optional<String> name= Optional.ofNullable(names[2]);
 		
-		String name1= names[2].toUpperCase();
+//		String name= names[2].toUpperCase();
 		
-		System.out.println(name1);
-//		System.out.println(name);
-		
+//		System.out.println(name.get());
+		System.out.println(name);
 
 	}
 
