@@ -15,7 +15,9 @@ public class Demo1 {
 		System.out.println(s.apply("Rajesh"));
 		System.out.println("suhasini");
 		
+		
 
 	}
+	
 
 }
