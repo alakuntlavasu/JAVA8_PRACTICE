@@ -1,0 +1,33 @@
+package Default_methods_java8;
+
+
+interface InterfaceOne
+{
+   default void anyMethod() {
+	   System.out.println("Hi.... from Interface One ");
+   }	
+}
+
+interface IntrfaceTwo
+{
+	default void anyMethod() 
+	{
+	 System.out.println("Hi.....from Interface Two");	
+	}
+}
+public class MyClass1 implements IntrefaceOne,InterfaceTwo
+{
+	@Override
+	public void anyMethod() 
+	{
+//	  System.out.println();
+		IntrefaceOne.super.anyMethod();
+	}
+
+	public static void main(String[] args) 
+	{
+		new MyClass1().anyMethod();
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package Default_methods_java8;
+
+
+interface InterfaceThree
+{
+    default void anyMethod()
+    {
+        System.out.println("Hi... From Interface One");
+    }
+}
+ 
+interface Interfacefour 
+{
+    default void anyMethod() 
+    {
+        System.out.println("Hi... From Interface Two");
+    }
+}
+ 
+public class MyClass1 implements InterfaceThree, Interfacefour
+{
+    @Override
+    public void anyMethod()
+    {
+        InterfaceThree.super.anyMethod();
+    }
+     
+    public static void main(String[] args) 
+    {
+        new Test().anyMethod();
+    }
+}

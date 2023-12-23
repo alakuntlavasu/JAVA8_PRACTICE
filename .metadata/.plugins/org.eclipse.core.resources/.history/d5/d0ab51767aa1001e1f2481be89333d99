@@ -1,0 +1,32 @@
+package Default_methods_java8;
+ interface InterfacewithdefaultMethods{
+	 
+	 void abstractmethod();
+	 
+	 default void defaultmethod() {
+		 System.out.println("It is adefault method");
+	 }
+ }
+ 
+ 
+ 
+public class AnyClass implements InterfacewithdefaultMethods{
+	
+	@Override
+	public void abstractmethod() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("It is Abstract method");
+	}
+
+
+	public static void main(String[] args) {
+		 
+           AnyClass c1= new AnyClass();
+           
+           c1.abstractmethod();
+           System.out.println(c1);
+	}
+
+	
+}
