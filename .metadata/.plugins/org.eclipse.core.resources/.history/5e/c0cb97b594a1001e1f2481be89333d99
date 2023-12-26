@@ -3,7 +3,7 @@ package Default_methods_java8;
 
 interface InterfaceThree
 {
-    default void anyMethod()              
+    default void anyMethod()
     {
         System.out.println("Hi... From Interface One");
     }

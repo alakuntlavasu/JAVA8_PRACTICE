@@ -20,10 +20,17 @@
     <fullyQualifiedTypeName name="com.LambdaExpression.Testimpl"/>
     <fullyQualifiedTypeName name="com.LambdaExpression.TestInterface"/>
     <fullyQualifiedTypeName name="com.LambdaExpression.TestInterface1"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.StringJoiner"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="Default_methods_java8.InterfacewithdefaultMethods"/>
+    <fullyQualifiedTypeName name="Default_methods_java8.AnyClass"/>
+    <fullyQualifiedTypeName name="Default_methods_java8.MyClass"/>
+    <fullyQualifiedTypeName name="Default_methods_java8.InterfaceTwo"/>
+    <fullyQualifiedTypeName name="Default_methods_java8.MyClass1"/>
+    <fullyQualifiedTypeName name="Default_methods_java8.IntrefaceOne"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

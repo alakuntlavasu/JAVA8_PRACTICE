@@ -1,0 +1,17 @@
+package StringJoiner;
+
+import java.util.StringJoiner;
+
+public class Demo1StringJoiner 
+{
+
+	public static void main(String[] args) {
+		
+		String stringjoins=String.join(" | ", "vasu","varun Taj","naveen");
+		
+		
+		System.out.println(stringjoins);
+
+	}
+
+}
