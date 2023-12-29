@@ -13,7 +13,6 @@ public class RemoveElements {
 		List<String> elements= Arrays.asList("vasu","jaggu","shafi","varun","vasu","shfi");
 		
 		List<String> filterelemets= elements.stream().distinct().collect(Collectors.toList());
-//		System.out.println(filterelemets);
 		System.out.println(filterelemets);
 				
 
