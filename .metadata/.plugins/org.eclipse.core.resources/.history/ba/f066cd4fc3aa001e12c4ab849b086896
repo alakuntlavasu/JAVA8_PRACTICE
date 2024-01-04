@@ -17,7 +17,6 @@ public class Demo3String_Joiner {
 		languages = String.join(" , ",listlanguages );
 		
 		System.out.println(languages);
-		System.out.println("string joiner class in java 8");
 		
 		
 
