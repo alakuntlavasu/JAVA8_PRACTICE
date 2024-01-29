@@ -1,0 +1,21 @@
+package Streams_API;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Streams_API_Intraduction {
+
+	public static void main(String[] args) {
+		
+		List<String> names=new ArrayList<String>();
+		names.add("vasu");
+		names.add("sivs");
+		names.add("vamsi");
+		names.add("naveen");
+		
+		names.stream().limit(2).forEach(x->{System.out.println(x);});
+
+	}
+
+}
+ 

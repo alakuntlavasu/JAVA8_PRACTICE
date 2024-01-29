@@ -24,11 +24,8 @@ public class Streams_API_Intraduction {
 		names.add("varun");
 		names.add("Rajesh");
 		
-//		// it will skip the two objects we will use skip() method
-//		names.stream().skip(2).forEach(g->{System.out.println(g);});
-		
-		// it use both skip() and limit() 
-				names.stream().skip(2).limit(2).forEach(g->{System.out.println(g);});
+		// it will skip the two objects we will use skip() method
+		names.stream().skip(2).forEach(g->{System.out.println(g);});
 		
 	}
 
