@@ -1,0 +1,22 @@
+package OptionalClass;
+
+import java.util.Optional;
+
+public class OptionalInterviwQ {
+
+	public static void main(String[] args) {
+		 
+		String str="vasu";
+		
+		Optional<String> optional= Optional.ofNullable(str);
+		
+		{
+			System.out.println(optional.get());
+		}
+		
+		}
+		
+
+	}
+
+

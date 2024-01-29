@@ -1,0 +1,29 @@
+package OptionalClass;
+
+import java.util.Optional;
+
+public class OptionalInterviwQ {
+
+	public static void main(String[] args) {
+		 
+		String str="vasu";
+		
+		Optional<String> optional= Optional.of(str);
+		
+//		{
+//			if(optional.isPresent()) 
+//			{
+//				System.out.println(optional.get());
+//			}
+//			else {
+//				System.out.println("value is not present");
+//			}
+//			
+		}
+		
+		}
+		
+
+	
+
+

@@ -11,9 +11,15 @@ public class Filter_Ex3 {
 		
 		// i want filter null values
 		
-		 List<String> colors = Carcolors.stream().filter(s->s!=null).collect(Collectors.toList());
-		System.out.println(colors);
+//		 List<String> colors = Carcolors.stream().filter(s->s!=null).collect(Collectors.toList());
+//		System.out.println(colors);
+		
+		
+		Carcolors.stream().filter(n->n!=null).forEach((n)->{System.out.println(n);});
+				                  
+		                          
         
+		
 	}
 
 }

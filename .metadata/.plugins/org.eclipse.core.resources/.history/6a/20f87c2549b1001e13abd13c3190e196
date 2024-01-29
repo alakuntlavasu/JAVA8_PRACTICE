@@ -1,0 +1,22 @@
+package OptionalClass;
+
+import java.util.Optional;
+
+public class OptionalInterviwQ {
+
+	public static void main(String[] args) {
+		 
+		String str=null;
+		
+		Optional<String> optional= Optional.of(str);
+		
+		{
+			System.out.println(optional.get());
+		}
+		
+		}
+		
+
+	}
+
+
